@@ -1,3 +1,4 @@
+#Tutorial by codewithharry
 import speech_recognition as sr  # Recognizes voice
 import webbrowser 
 import pyttsx3  # Text to speech
@@ -10,7 +11,7 @@ recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
 
-newsapi = '45ffa4a9685c49b78ea39ccb3d447b67'
+newsapi = 'your api here'
 
 
 def jarvisCommand(command):
